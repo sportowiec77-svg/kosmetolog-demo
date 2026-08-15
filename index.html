@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MP Kosmetolog — nowoczesna kosmetologia premium, zabiegi dopasowane do Ciebie, indywidualne podejście i profesjonalna opieka nad skórą."
+    />
+    <title>MP Kosmetolog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="MP Kosmetolog strona główna">
+          <div class="brand-mark">MP</div>
+          <div class="brand-text">
+            <span>KOSMETOLOG</span>
+          </div>
+        </a>
+
+        <nav class="main-nav" aria-label="Główna nawigacja">
+          <ul>
+            <li><a href="#top" class="active">Strona główna</a></li>
+            <li><a href="#o-mnie">O mnie</a></li>
+            <li><a href="#zabiegi">Zabiegi</a></li>
+            <li><a href="#cennik">Cennik</a></li>
+            <li><a href="#metamorfozy">Metamorfozy</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+
+        <a href="#kontakt" class="btn btn-primary btn-header">Umów wizytę</a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Otwórz menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" aria-label="Menu mobilne">
+        <nav>
+          <ul>
+            <li><a href="#top">Strona główna</a></li>
+            <li><a href="#o-mnie">O mnie</a></li>
+            <li><a href="#zabiegi">Zabiegi</a></li>
+            <li><a href="#cennik">Cennik</a></li>
+            <li><a href="#metamorfozy">Metamorfozy</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-shell">
+        <div class="container hero-inner">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Kosmetologia na najwyższym poziomie</p>
+            <h1>
+              Twoja skóra.<br />
+              <span>Moja pasja.</span>
+            </h1>
+            <p class="hero-text reveal-delay-2">
+              Nowoczesne technologie, indywidualne podejście i skuteczne terapie dla zdrowej,
+              pięknej skóry.
+            </p>
+            <div class="hero-actions reveal-delay-3">
+              <a href="#kontakt" class="btn btn-primary">Umów wizytę <span aria-hidden="true">→</span></a>
+              <a href="#zabiegi" class="btn btn-secondary">Zobacz zabiegi</a>
+            </div>
+          </div>
+
+          <div class="hero-media reveal reveal-scale">
+            <div class="hero-photo-wrap">
+              <img
+                src="images/hero-kosmetolog.svg"
+                alt="Kosmetolog z profesjonalną pielęgnacją skóry"
+                width="800"
+                height="980"
+                fetchpriority="high"
+              />
+            </div>
+            <div class="decor decor-ring decor-ring-one" aria-hidden="true"></div>
+            <div class="decor decor-ring decor-ring-two" aria-hidden="true"></div>
+            <div class="decor vertical-text" aria-hidden="true">P E R S O N A L I Z E D &nbsp; S K I N &nbsp; C A R E</div>
+            <div class="watermark" aria-hidden="true">MP</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section-shell reveal" id="zabiegi">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow gold">Zabiegi dopasowane do Ciebie</p>
+            <h2>Oferta zabiegów</h2>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal reveal-delay-1">
+              <div class="image-box">
+                <img src="images/zabieg-twarz.svg" alt="Pielęgnacja twarzy" width="420" height="280" loading="lazy" />
+              </div>
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" focusable="false"><path d="M18 24c0-7 6-13 13-13s13 6 13 13v2H18v-2zm-4 2h34v18c0 7-6 13-13 13H27c-7 0-13-6-13-13V26zm11 6h12v8H25v-8zm-2 14h16v4H23v-4z"/></svg>
+              </div>
+              <h3>Pielęgnacja twarzy</h3>
+              <p>Zabiegi nawilżające, odżywcze i regenerujące dla każdej cery.</p>
+              <a href="#kontakt" class="service-link">Sprawdź <span aria-hidden="true">→</span></a>
+            </article>
+
+            <article class="service-card reveal reveal-delay-2">
+              <div class="image-box">
+                <img src="images/anti-aging.svg" alt="Zabiegi anti-aging" width="420" height="280" loading="lazy" />
+              </div>
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" focusable="false"><path d="M32 9c9 0 16 7 16 16v3c0 3-1 6-3 8l-8 8v7h-10v-7l-8-8a11 11 0 0 1-3-8v-3c0-9 7-16 16-16zm0 6c-5 0-9 4-9 9v3c0 2 1 4 2 5l8 8 8-8a7 7 0 0 0 2-5v-3c0-5-4-9-9-9zm-5 22h10v4H27v-4zm3 7h4v4h-4v-4z"/></svg>
+              </div>
+              <h3>Zabiegi anti-aging</h3>
+              <p>Nowoczesne techniki przeciwstarzeniowe dające widoczny efekt liftingu.</p>
+              <a href="#kontakt" class="service-link">Sprawdź <span aria-hidden="true">→</span></a>
+            </article>
+
+            <article class="service-card reveal reveal-delay-3">
+              <div class="image-box">
+                <img src="images/oczyszczanie.svg" alt="Oczyszczanie skóry" width="420" height="280" loading="lazy" />
+              </div>
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" focusable="false"><path d="M32 8c6 0 11 5 11 11v6h6c4 0 7 3 7 7v8c0 10-8 18-18 18h-2c-10 0-18-8-18-18v-8c0-4 3-7 7-7h6v-6c0-6 5-11 11-11zm0 6c-3 0-5 2-5 5v6h10v-6c0-3-2-5-5-5zm-10 17h20c2 0 4 2 4 4v7c0 7-5 12-12 12h-4c-7 0-12-5-12-12v-7c0-2 2-4 4-4zm10 4v7h4v-7h-4z"/></svg>
+              </div>
+              <h3>Oczyszczanie skóry</h3>
+              <p>Głębokie oczyszczanie, redukcja zaskórników i poprawa kondycji skóry.</p>
+              <a href="#kontakt" class="service-link">Sprawdź <span aria-hidden="true">→</span></a>
+            </article>
+
+            <article class="service-card reveal reveal-delay-4">
+              <div class="image-box">
+                <img src="images/zabieg-specjalistyczne.svg" alt="Terapie specjalistyczne" width="420" height="280" loading="lazy" />
+              </div>
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" focusable="false"><path d="M18 19c0-6 5-11 11-11s11 5 11 11v2h4c5 0 9 4 9 9v11c0 7-6 13-13 13H25c-7 0-13-6-13-13V30c0-5 4-9 9-9h4v-2zm9-5c-3 0-5 2-5 5v2h10v-2c0-3-2-5-5-5zm-8 18h2v12h-2V32zm8 0h2v12h-2V32zm8 0h2v12h-2V32zm-19 8h26v2c0 4-3 7-7 7h-12c-4 0-7-3-7-7v-2z"/></svg>
+              </div>
+              <h3>Terapie specjalistyczne</h3>
+              <p>Indywidualne terapie skierowane na konkretne potrzeby i problemy skóry.</p>
+              <a href="#kontakt" class="service-link">Sprawdź <span aria-hidden="true">→</span></a>
+            </article>
+
+            <article class="service-card reveal reveal-delay-5">
+              <div class="image-box">
+                <img src="images/pielegnacja-ciala.svg" alt="Pielęgnacja ciała" width="420" height="280" loading="lazy" />
+              </div>
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" focusable="false"><path d="M32 10c-6 0-10 4-10 10v2h-3c-5 0-9 4-9 9v9c0 7 6 13 13 13h18c7 0 13-6 13-13v-9c0-5-4-9-9-9h-3v-2c0-6-4-10-10-10zm-8 12h16v2H24v-2zm-4 9h24v8c0 4-3 7-7 7H27c-4 0-7-3-7-7v-8zm8 2v8h8v-8h-8z"/></svg>
+              </div>
+              <h3>Pielęgnacja ciała</h3>
+              <p>Zabiegi odżywiające, ujędrniające i poprawiające komfort codziennej pielęgnacji.</p>
+              <a href="#kontakt" class="service-link">Sprawdź <span aria-hidden="true">→</span></a>
+            </article>
+          </div>
+
+          <div class="center-button reveal">
+            <a href="#kontakt" class="btn btn-primary btn-cta">Sprawdź pełną ofertę</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="why section-shell reveal" id="cennik">
+        <div class="container why-inner">
+          <div class="why-copy">
+            <p class="eyebrow gold">Dlaczego warto?</p>
+            <h2>Z troską o Twoje <span>piękno i komfort</span></h2>
+          </div>
+
+          <div class="why-grid">
+            <article class="why-item reveal reveal-delay-1">
+              <div class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" focusable="false"><path d="M32 8c8 0 14 6 14 14v4h-8v-4a6 6 0 1 0-12 0v4h-8v-4C18 14 24 8 32 8zm-16 20h32a6 6 0 0 1 6 6v12a8 8 0 0 1-8 8H24a8 8 0 0 1-8-8V34a6 6 0 0 1 6-6zm6 8v4h20v-4H22zm6 8v4h8v-4h-8z"/></svg>
+              </div>
+              <h3>Indywidualne podejście</h3>
+              <p>Każda skóra jest inna, dlatego dobieramy terapię do jej potrzeb i oczekiwań.</p>
+            </article>
+
+            <article class="why-item reveal reveal-delay-2">
+              <div class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" focusable="false"><path d="M32 8a22 22 0 0 1 22 22c0 14-18 26-22 26S10 44 10 30A22 22 0 0 1 32 8zm0 8a14 14 0 0 0-14 14c0 8 8 15 14 20 6-5 14-12 14-20A14 14 0 0 0 32 16zm-1 6h6v10h-6V22zm0 14h6v6h-6v-6z"/></svg>
+              </div>
+              <h3>Nowoczesne technologie</h3>
+              <p>Pracujemy z certyfikowanymi urządzeniami i skutecznymi formułami pielęgnacyjnymi.</p>
+            </article>
+
+            <article class="why-item reveal reveal-delay-3">
+              <div class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" focusable="false"><path d="M32 8c-6 0-10 4-10 10v4h20v-4c0-6-4-10-10-10zm14 18v-4h6v4h4v6h-6v20c0 7-5 13-12 13s-12-6-12-13V32h-6v-6h4v-4h32v4h4v6h-6zm-4 6H22v18c0 3 3 6 6 6h12c3 0 6-3 6-6V32z"/></svg>
+              </div>
+              <h3>Bezpieczeństwo</h3>
+              <p>Stawiamy na skuteczność, estetykę i bezpieczeństwo, dbając o komfort pacjentki.</p>
+            </article>
+
+            <article class="why-item reveal reveal-delay-4">
+              <div class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" focusable="false"><path d="M28 10c-7 0-12 6-12 13v6h-4a4 4 0 0 0-4 4v12c0 11 9 20 20 20h8c11 0 20-9 20-20V33a4 4 0 0 0-4-4h-4v-6c0-7-5-13-12-13h-8zm6 8h4c3 0 6 3 6 6v7H28v-7c0-3 3-6 6-6zm-16 18h32v10c0 6-5 11-11 11H29c-6 0-11-5-11-11V36z"/></svg>
+              </div>
+              <h3>Komfort i relaks</h3>
+              <p>Gabinet stworzony z myślą o spokojnej atmosferze i pełnym poczuciu odprężenia.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-shell reveal" id="o-mnie">
+        <div class="container about-inner">
+          <div class="about-photo reveal reveal-left">
+            <img src="images/gabinet.svg" alt="Gabinet kosmetologiczny MP Kosmetolog" width="860" height="760" loading="lazy" />
+            <div class="about-mark" aria-hidden="true">
+              <span class="brand-mark small">MP</span>
+              <span class="brand-text small">KOSMETOLOG</span>
+            </div>
+          </div>
+
+          <div class="about-content reveal reveal-right">
+            <p class="eyebrow gold">O mnie</p>
+            <h2>Kosmetologia to <span>moja pasja</span></h2>
+            <p>
+              Nazywam się Marta Piskorz i od ponad ośmiu lat pomagam kobietom czuć się pięknie,
+              pewnie i komfortowo w swojej skórze. W mojej pracy łączę nowoczesne technologie,
+              indywidualne podejście oraz troskę o zdrowie i naturalne piękno.
+            </p>
+            <p>
+              Każdy zabieg jest dopasowany do potrzeb klientki, a atmosfera gabinetu ma sprzyjać
+              relaksowi i regeneracji zarówno skóry, jak i wewnętrznego poczucia komfortu.
+            </p>
+
+            <div class="signature" aria-label="Marta Piskorz podpis">Marta Piskorz</div>
+
+            <a href="#kontakt" class="btn btn-primary btn-about">Dowiedz się więcej</a>
+
+            <div class="stats" aria-label="Statystyki gabinetu">
+              <div class="stat-item">
+                <div class="stat-icon" aria-hidden="true">✦</div>
+                <div class="stat-value" data-target="8">0</div>
+                <div class="stat-label">Lat doświadczenia</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon" aria-hidden="true">✦</div>
+                <div class="stat-value" data-target="1000">0</div>
+                <div class="stat-label">Zadowolonych klientów</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon" aria-hidden="true">✦</div>
+                <div class="stat-value" data-target="5000">0</div>
+                <div class="stat-label">Wykonanych zabiegów</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section-shell" id="kontakt">
+        <div class="container cta-inner reveal">
+          <div>
+            <h2>Umów się na wizytę</h2>
+            <p>Zrób pierwszy krok do pięknej i zdrowej skóry.</p>
+          </div>
+          <a href="tel:+48500123456" class="btn btn-primary btn-cta-dark">Umów wizytę <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="brand footer-brand-inner">
+            <div class="brand-mark">MP</div>
+            <div class="brand-text">
+              <span>KOSMETOLOG</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="#top">Strona główna</a></li>
+            <li><a href="#o-mnie">O mnie</a></li>
+            <li><a href="#zabiegi">Zabiegi</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Zabiegi</h3>
+          <ul>
+            <li><a href="#zabiegi">Pielęgnacja twarzy</a></li>
+            <li><a href="#zabiegi">Anti-aging</a></li>
+            <li><a href="#zabiegi">Oczyszczanie</a></li>
+            <li><a href="#zabiegi">Terapie specjalistyczne</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Kontakt</h3>
+          <ul class="contact-list">
+            <li><a href="tel:+48500123456">+48 500 123 456</a></li>
+            <li><a href="mailto:kontakt@mpkosmetolog.pl">kontakt@mpkosmetolog.pl</a></li>
+            <li>ul. Piękna 14, Warszawa</li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>© 2026 MP Kosmetolog</p>
+          <div class="legal-links">
+            <a href="#">Polityka prywatności</a>
+            <a href="#">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
