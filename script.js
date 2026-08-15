@@ -40,12 +40,22 @@ window.addEventListener('scroll', () => {
 
 const revealItems = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
 
+revealItems.forEach((item) => {
+  item.classList.add('is-visible');
+  item.style.opacity = '1';
+  item.style.transform = 'none';
+  item.style.visibility = 'visible';
+});
+
 if ('IntersectionObserver' in window) {
   const revealObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('is-visible');
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'none';
+          entry.target.style.visibility = 'visible';
           revealObserver.unobserve(entry.target);
         }
       });
@@ -57,8 +67,6 @@ if ('IntersectionObserver' in window) {
   );
 
   revealItems.forEach((item) => revealObserver.observe(item));
-} else {
-  revealItems.forEach((item) => item.classList.add('is-visible'));
 }
 
 const statItems = document.querySelectorAll('.stat-value');
